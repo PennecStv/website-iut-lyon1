@@ -1,6 +1,6 @@
 # Site web IUT Lyon 1
 
-![](assets/img/iut_logo_200dpi.png)
+![](assets/img/iut_logo_couleur_200dpi.png)
 
 ## Département informatique
 

@@ -12,3 +12,5 @@ Ce projet a également été conçu en utilisant uniquement du HTML et du CSS, a
 >
 > - Steve PENNEC
 > - Elliot Casna
+>
+> G5S1

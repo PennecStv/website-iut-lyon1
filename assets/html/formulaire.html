@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<!--Metadonnées et liens-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>I.U.T Lyon 1 - Nom de la page</title>
+
+    <link rel="stylesheet" href="../css/main.css">
+    <!--<link rel="stylesheet" href="custom.css">-->
+</head>
+<body>
+
+    <!--Header principal de la page-->
+
+    <header class="header-nav">
+        <img src="../img/iut_logo_200dpi.png" alt="Logo IUT">
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Accueil</a></li>
+                <li><a href="../html/departement.html">Département informatique</a></li>
+                <li><a href="../html/but.html">BUT informatique</a></li>
+                <li><a href="../html/formulaire.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Partie principale de la page-->
+    
+    <section>
+        <h2>Présentation</h2>
+        <p>Voici notre page de contact. Un <strong>formulaire</strong> est mis à votre disposition pour quelconque question ou message que vous souhaiterai transmettre à notre équipe. Nous serons ravi de vous apporter plus d’informations au sujet du B.U.T Informatique que propose l’I.U.T Lyon1 Villeurbanne.</p>
+        <p>Nos <strong>coordonnées</strong> vous sont également fournies dans le cas où vous rechercheriez à nous contacter par un autre moyen que le formulaire pour tout type de raison.</p>
+    </section>
+
+    <article>
+        <h1>Page de contact</h1>
+        <section class="form">
+            <h2>Formulaire de contact</h2>
+            <form action="http://champin.net/enseignement/intro-web/_static/formproc/debug" method="GET">
+                <label>Vous êtes :
+                    <select name="type-visiteur" id="type-visiteur">
+                        <option value="Etudiant" selected="selected">Étudiant</option>
+                        <option value="Professeur">Professeur</option>
+                        <option value="Parent">Parent</option>
+                        <option value="Entreprise">Entreprise</option>
+                    </select>
+                </label>
+                <input type="text" name="Nom" placeholder="Nom" aria-label="Nom">
+                <input type="text" name="Prénom" placeholder="Prénom" aria-label="Prénom">
+                <input type="text" name="E-mail" placeholder="E-mail" aria-label="E-mail">
+                <input type="text" name="Téléphone" placeholder="Téléphone" aria-label="Téléphone">
+                <input type="text" name="Adresse" placeholder="Adresse" aria-label="Adresse">
+                <input type="text" name="Code postal" placeholder="Code postal" aria-label="Code postal">
+                <input type="text" name="Objet" placeholder="Objet" aria-label="Objet du message (facultatif)">
+                <input type="text" name="Message..." placeholder="Message..." aria-label="Message...">
+                <button type="submit" class="btn-primary">Envoyer</button>  
+            </form>
+        </section>
+
+        <section>
+            <h2>I.U.T Lyon1 - Villeurbanne, site de la Doua</h2>
+            <ul>
+                <li><strong>Adresse</strong>: 92, boulevard Niels Bohr 69622 Villeurbanne cedex</li>
+                <li><strong>Numéro de téléphone de l'I.U.T Lyon1</strong>: +33 (0)4 72 69 20 00</li>
+                <li><strong>Numéro de téléphone du département informatique</strong>: 04 72 69 21 82</li>
+                <li><strong>E-mail</strong>: iutdoua.info@univ-lyon1.fr</li>
+                <li><strong>Site Internet</strong>: <a href="https://iut.univ-lyon1.fr/">https://iut.univ-lyon1.fr/</a></li>
+            </ul>
+
+            <h2>Vous souhaitez avoir un poste au sein de notre établissement?</h2> 
+            <p>Veuillez nous joindre par le biais de ces adresses pour plus d'informations sur les postes disponibles ainsi qu'un possible recrutement:</p>
+
+            <h2>Horaire d'ouverture du secrétariat</h2>
+            <p> Du lundi au vendredi, de 8h30 à 12h30 et de 13h30 à 16h30</p>
+        </section>
+    </article>
+
+    <!--Footer principal-->
+
+    <footer class="body-footer">
+        <h2>Nos réseaux</h2>
+        <div>
+            <a href="https://www.univ-lyon1.fr/facebook" class="btn-icon">
+                <img src="../img/social/facebook-96.png" alt="facebook">
+            </a>
+            <a href="https://www.univ-lyon1.fr/twitter" class="btn-icon">
+                <img src="../img/social/twitter-96.png" alt="twitter">
+            </a>
+            <a href="https://www.univ-lyon1.fr/youtube" class="btn-icon">
+                <img src="../img/social/youtube-96.png" alt="twitter">
+            </a>
+            <a href="https://fr.linkedin.com/school/iut-lyon-1/" class="btn-icon">
+                <img src="../img/social/linkedin-96.png" alt="linkedin">
+            </a>
+            <a href="https://www.univ-lyon1.fr/instagram" class="btn-icon">
+                <img src="../img/social/instagram-96.png" alt="instagram">
+            </a>
+        </div>
+        <p>2021 - CASNA Elliot & PENNEC Steve - G5S1 du département informatique de l'I.U.T Lyon1</p>
+    </footer>
+</body>
+</html>

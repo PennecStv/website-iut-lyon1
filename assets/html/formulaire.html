@@ -39,23 +39,34 @@
         <section class="form">
             <h2>Formulaire de contact</h2>
             <form action="http://champin.net/enseignement/intro-web/_static/formproc/debug" method="GET">
-                <label>Vous êtes :
-                    <select name="type-visiteur" id="type-visiteur">
-                        <option value="Etudiant" selected="selected">Étudiant</option>
-                        <option value="Professeur">Professeur</option>
-                        <option value="Parent">Parent</option>
-                        <option value="Entreprise">Entreprise</option>
-                    </select>
-                </label>
-                <input type="text" name="Nom" placeholder="Nom" aria-label="Nom">
-                <input type="text" name="Prénom" placeholder="Prénom" aria-label="Prénom">
-                <input type="text" name="E-mail" placeholder="E-mail" aria-label="E-mail">
-                <input type="text" name="Téléphone" placeholder="Téléphone" aria-label="Téléphone">
-                <input type="text" name="Adresse" placeholder="Adresse" aria-label="Adresse">
-                <input type="text" name="Code postal" placeholder="Code postal" aria-label="Code postal">
-                <input type="text" name="Objet" placeholder="Objet" aria-label="Objet du message (facultatif)">
-                <input type="text" name="Message..." placeholder="Message..." aria-label="Message...">
-                <button type="submit" class="btn-primary">Envoyer</button>  
+                <section>
+                    <label>Vous êtes :
+                        <select name="type-visiteur" id="type-visiteur">
+                            <option value="Etudiant" selected="selected">Étudiant</option>
+                            <option value="Professeur">Professeur</option>
+                            <option value="Parent">Parent</option>
+                            <option value="Entreprise">Entreprise</option>
+                        </select>
+                    </label>
+                    <section class="inline">
+                        <section>
+                            <input type="text" name="Nom" placeholder="Nom" aria-label="Nom">
+                            <input type="text" name="Prénom" placeholder="Prénom" aria-label="Prénom">
+                            <input type="text" name="E-mail" placeholder="E-mail" aria-label="E-mail">
+                            <input type="text" name="Téléphone" placeholder="Téléphone" aria-label="Téléphone">
+                            <input type="text" name="Adresse" placeholder="Adresse" aria-label="Adresse">
+                            <input type="text" name="Code postal" placeholder="Code postal" aria-label="Code postal">
+                        </section>
+                        
+                        <section>
+                            <input type="text" name="Objet" placeholder="Objet" aria-label="Objet du message (facultatif)">
+                            <input type="text" name="Message..." placeholder="Message..." aria-label="Message...">
+                        </section>
+                    </section>
+                    
+                    
+                    <button type="submit" class="btn-primary">Envoyer</button>  
+                </section>
             </form>
         </section>
 
@@ -79,9 +90,8 @@
                 </div>
             </section>
         </section>
-        
-        <section class="inline">
-            <section>
+
+        <section>
             <h2>Vous souhaitez avoir un poste au sein de notre établissement?</h2> 
             <p>Veuillez nous joindre par le biais de ces adresses pour plus d'informations sur les postes disponibles ainsi qu'un possible recrutement:</p>
             </section>

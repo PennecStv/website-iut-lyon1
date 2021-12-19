@@ -122,7 +122,9 @@ section{
     justify-content: center;
 }
 
-
+strong{
+    font-size: larger;
+}
 
 ul{
     margin: 0.5rem;
@@ -130,7 +132,16 @@ ul{
 
     li{
         margin: 0.5rem;
+        font-size: larger;
     } 
+
+
+
+q{
+    margin: 1rem;
+    font-size: larger;
+}
+
 
 a{
     margin: 0.5rem;

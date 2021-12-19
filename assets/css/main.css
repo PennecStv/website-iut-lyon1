@@ -136,11 +136,13 @@ input{
 }
 
 .hero{
-    height: 70vh;
+    height: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-image: url("../img/IUT/Coding_2.jpg");
+    background-size: cover;
 }
 
 .btn-primary{

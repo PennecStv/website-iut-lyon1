@@ -9,9 +9,9 @@
     --clr-primaire-dark-text: white;
     --ff-primaire: "Calibri";
     --clr-black-shadow: rgba(0, 0, 0, 0.5);
-    --fs-small:1rem;
-    --fs-medium:2.5rem;
-    --fs-high:3.5rem;
+    --fs-small: 1rem;
+    --fs-medium: 2.5rem;
+    --fs-high: 3.5rem;
 
 }
 
@@ -170,7 +170,7 @@ input{
 
 img{
     max-width: 600px;
-    max-height: 600px;
+    max-height: 500px;
 }
 
 iframe, img, .btn-primary{

@@ -96,9 +96,9 @@ body{
 /*                      Composants                         */
 /*---------------------------------------------------------*/
 
-p{
+p, strong, ul{
     margin: 2rem;
-    font-size: large;
+    font-size: larger;
 }
 
 h1{

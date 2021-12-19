@@ -34,8 +34,10 @@
     </section>
 
     <article>
-        <p>Voici notre page de contact. Un <strong>formulaire</strong> est mis à votre disposition pour quelconque question ou message que vous souhaiterai transmettre à notre équipe. Nous serons ravi de vous apporter plus d’informations au sujet du B.U.T Informatique que propose l’I.U.T Lyon1 Villeurbanne.</p>
-        <p>Nos <strong>coordonnées</strong> vous sont également fournies dans le cas où vous rechercheriez à nous contacter par un autre moyen que le formulaire pour tout type de raison.</p>
+        <section>
+            <p>Voici notre page de contact. Un <strong>formulaire</strong> est mis à votre disposition pour quelconque question ou message que vous souhaiterai transmettre à notre équipe. Nous serons ravi de vous apporter plus d’informations au sujet du B.U.T Informatique que propose l’I.U.T Lyon1 Villeurbanne.</p>
+            <p>Nos <strong>coordonnées</strong> vous sont également fournies dans le cas où vous rechercheriez à nous contacter par un autre moyen que le formulaire pour tout type de raison.</p>
+        </section>
         <section class="form">
             <h2>Formulaire de contact</h2>
             <form action="http://champin.net/enseignement/intro-web/_static/formproc/debug" method="GET">
@@ -58,15 +60,16 @@
                             <input type="text" name="Code postal" placeholder="Code postal" aria-label="Code postal">
                         </section>
                         
-                        <section>
-                            <input type="text" name="Objet" placeholder="Objet" aria-label="Objet du message (facultatif)">
-                            <input type="text" name="Message..." placeholder="Message..." aria-label="Message...">
-                        </section>
+                        <aside>
+                            <input class="fill_x" type="text" name="Objet" placeholder="Objet" aria-label="Objet du message (facultatif)">
+                            <textarea class="fill_x fill_y" name="Message" placeholder="Message..." aria-label="Message..." rows="6"></textarea>
+                
+                        </aside>
                     </section>
-                    
-                    
-                    <button type="submit" class="btn-primary">Envoyer</button>  
+                    <button type="submit" class="btn-primary">Envoyer</button>
                 </section>
+                    
+                      
             </form>
         </section>
 

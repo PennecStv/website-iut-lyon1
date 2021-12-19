@@ -160,7 +160,8 @@ a{
     color: var(--clr-primaire-text);
 }
 
-input{
+input,textarea{
+    margin: 0.5rem;
     padding: 0.5rem;
     border-radius: 10px;
     text-align: center;
@@ -292,6 +293,17 @@ iframe, img, .btn-primary, .card{
     align-items: left;
 }
 
+.fill_y{
+    height: 85%;
+}
+
+.fill_x{
+    width: 85%;
+}
+
+section section {
+    padding: 0;
+}
 
 
 /*---------------------------------------------------------*/
@@ -351,6 +363,10 @@ iframe, img, .btn-primary, .card{
 
     .inline{
         flex-direction: column;
+    }
+
+    section{
+        padding: 1rem;
     }
     
 }

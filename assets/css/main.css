@@ -95,6 +95,10 @@ body{
 /*                      Composants                         */
 /*---------------------------------------------------------*/
 
+p{
+    margin: 2rem;
+}
+
 h1{
     font-size: var(--fs-high);
 }
@@ -104,7 +108,7 @@ h2{
 }
 
 h1,h2,h3,p{
-    margin: 0.5rem;
+    margin: 1rem;
 }
 
 section{
@@ -133,6 +137,11 @@ input{
     background-color: white;
     color: var(--clr-primaire-text);
 
+}
+
+img{
+    border-radius: 10px;
+    max-width: 600px;
 }
 
 .hero{
@@ -234,6 +243,11 @@ input{
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.inline{
+    display: flex;
+    flex-direction: row;
 }
 
 iframe{

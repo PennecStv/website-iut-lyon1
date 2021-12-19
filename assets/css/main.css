@@ -279,12 +279,6 @@ iframe, img, .btn-primary, .card{
         text-align: center;
     }
 
-.card-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
 .inline{
     display: flex;
     flex-direction: row;
@@ -353,10 +347,6 @@ iframe, img, .btn-primary, .card{
 
     img{
         max-width: 280px;
-    }
-
-    .card-container{
-        flex-direction: column;
     }
 
     .inline{

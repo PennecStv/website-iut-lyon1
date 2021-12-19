@@ -99,8 +99,10 @@ body{
 p{
     margin-top: 2rem;
     margin-bottom: 2rem;
-    font-size: larger;
+    
 }
+
+
 
 h1{
     font-size: var(--fs-high);
@@ -123,7 +125,7 @@ section{
 }
 
 strong{
-    font-size: large;
+    font-size: larger;
 }
 
 ul{
@@ -132,7 +134,6 @@ ul{
 
     li{
         margin: 0.5rem;
-        font-size: larger;
     } 
 
 
@@ -140,6 +141,7 @@ ul{
 q{
     margin: 1rem;
     font-size: larger;
+    font-style: italic;
 }
 
 

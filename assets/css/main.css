@@ -9,7 +9,7 @@
     --clr-primaire-dark-text: white;
     --ff-primaire: "Calibri";
     --clr-black-shadow: rgba(0, 0, 0, 0.5);
-    --fs-small: 1rem;
+    --fs-small: 1.1rem;
     --fs-medium: 2.5rem;
     --fs-high: 3.5rem;
 
@@ -57,13 +57,16 @@
         }
 
             .header-nav nav ul li{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
                 margin: 1rem;
                 padding: 0.5rem;
                 max-height: 1rem;
                 background-color: white;
                 color: var(--clr-primaire-text);
                 border-radius: 10px;
-                text-align: center;
                 list-style: none;
             }
 
@@ -83,7 +86,7 @@ body{
     align-items: center;
     background-image: linear-gradient(125deg, var(--clr-secondaire) 0%, var(--clr-primaire)  100%);
     color: var(--clr-primaire-dark-text);
-    box-shadow: var(--clr-black-shadow) 0 0 0 10px 10px;
+    box-shadow: var(--clr-black-shadow) 10px 10px 10px 10px 10px;
     
 }
 
@@ -155,8 +158,8 @@ q{
 a{
     margin: 0.5rem;
     text-decoration: none;
-    color: var(--clr-primaire-text);
     font-weight: bold;
+    color: var(--clr-primaire-text);
 }
 
 input{
@@ -308,8 +311,11 @@ iframe, img, .btn-primary{
         background-color: var(--clr-primaire-dark);
         color: var(--clr-primaire-dark-text);
     }
-    .header-nav{
-        color: var(--clr-primaire-dark-text);
+    .header-nav a{
+        color: var(--clr-primaire-text);
+    }
+    a{
+        color: var(--clr-primaire-dark-text);   
     }
    
 }
